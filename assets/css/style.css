@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    overflow: hidden;
+}
+@font-face {
+    font-family: ArobiaMedium;
+    src: url("../font/Arboria-Bold.ttf");
+}
+
+.header-section{
+    background: #F65C00;
+    padding: 10px;
+    text-align: end;
+}
+
+.text-F65C00{
+    color: #F65C00;
+}
+
+.text-585858{
+    color: #585858;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-date{
+    text-align: end;
+    font-size: 18px;
+}
+
+.heading{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.section4 img{
+    width: 380px;
+}
+
+.heading img{
+    width: 100%;
+}
+
+.fw-bold{
+    font-weight: bold;
+}
+
+.heading2{
+    color: #F65C00;
+    font-size: 36px;
+    line-height: normal;
+    font-weight: 500;
+    margin: auto;
+    max-width: 600px;
+    padding-top: 60px;
+    font-family: ArobiaMedium;
+}
+
+.section1-img1{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.section1-paragraph{
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+sub {
+    bottom: 6px;
+    vertical-align: sub;
+    font-size: 10px;
+}
+
+.section1-button{
+    text-align: center;
+}
+
+.section1-button a{
+    text-decoration: none;
+    color: #F65C00;
+    background: #fff;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 14px;
+    border: 2px solid #F65C00;
+    font-family: ArobiaMedium;
+}
+
+.section5-heading span{
+    font-family: ArobiaMedium;
+}
+
+.section1-button a:hover{
+    background-color: #F65C00;
+    color: #fff;
+}
+.section2-img{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.section3-img img,
+.section2-img img{
+    width: 100%;
+}
+
+.section2-heading{
+    color: #F65C00;
+    font-size: 36px;
+    line-height: normal;
+    font-weight: 500;
+    max-width: 690px;
+    padding: 30px 0px 30px 0px;
+    font-family: ArobiaMedium;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+
+.section4{
+    padding-top: 10px;
+}
+
+.fst-italic{
+    font-style: italic;
+}
+
+.section5-heading{
+    color: #F65C00;
+    font-size: 24px;
+    line-height: normal;
+    padding-top: 60px;
+    text-align: center;
+    font-family: ArobiaMedium;
+}
+
+.section5-icon{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.section5-heading1{
+    color: #F65C00;
+    font-size: 26px;
+    line-height: normal;
+    padding-top: 20px;
+    text-align: center;
+    font-family: ArobiaMedium;
+}
+
+.section6{
+    background: #f3f3f3;
+    margin-top: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-section{
+    background: #F65C00;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: #fefeff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-7f8285{
+    /* color: #7f8285; */
+    font-weight: bold;
+}
+
+.text-7f8288{
+    color: #7f8288;
+    font-weight: 500;
+}
+
+.section6-paargraph1{
+    font-size: 18px;
+    padding-bottom: 30px;
+    color: #939598;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section6-paargraph2{
+    color: #272137;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-para{
+    padding-bottom: 0.25rem !important;
+}
+
+.footer-para.pt-4{
+    padding-bottom: 1.5rem!important;
+}
+
+.footer-icon.p{
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+}
+.footer-para span a,
+.footer-icon a{
+    text-decoration: underline;
+    color: #fefeff;
+}
+
+.top-content{
+    max-width: 600px;
+    margin: auto;
+}
+
+.flex-div{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+@media screen and (max-width:767px){
+    .heading{
+        font-size: 40px;
+    }
+
+    .section4 img,
+    .heading img,
+    .section1-img1{
+        width: 100%;
+    }
+
+    .heading2 {
+        font-size: 28px;
+    }
+
+    .section4 .flex-div{
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+
+
+}
+
